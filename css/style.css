@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
 @import "variables.css";
 
 body {
@@ -45,5 +45,19 @@ body {
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--black);
+  border-width: 2px;
+}
+
+#login-form input[type="submit"],
+#login-form input[type="button"] {
+  border: none;
+}
+
+#login-form a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
 }
