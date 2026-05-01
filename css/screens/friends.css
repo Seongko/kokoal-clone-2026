@@ -1,0 +1,94 @@
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.friends-header__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.friends-header__column:last-child i:nth-child(2),
+.friends-header__column:last-child i:nth-child(3),
+.friends-header__column:last-child i:nth-child(4) {
+  margin-left: 15px;
+}
+
+.friends-Names-display {
+  background-color: #fafafa;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.friends-Names-display span {
+  margin: 0px 10px;
+}
+
+.friends-Names-display i {
+  opacity: 0.3;
+}
+
+.friends-channel {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+
+.friends-channel-list {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.friends-channel-list__image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: black;
+}
+
+.friends-channel-list__info h2 {
+  font-size: 20px;
+}
+
+.friends-channel-list__number {
+  margin-left: auto;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes hidesplashScreen {
+  from {
+    opacity: none;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: hidesplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+}

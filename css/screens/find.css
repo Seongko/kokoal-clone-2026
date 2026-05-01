@@ -1,0 +1,97 @@
+.find-apps {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.find-apps__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.find-apps__column i {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.recommended-friends__title {
+  margin: 0px 20px;
+  opacity: 0.6;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  padding-top: 20px;
+}
+
+.recommended-friends__list__lists {
+  margin: 0px 20px;
+  opacity: 0.6;
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.openchat {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  opacity: 0.6;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  padding-top: 20px;
+}
+
+.openchat__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.openchat__list__column__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.openchat__list__column:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.openchat__list__column:last-child img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.openchat__list__column__title {
+  font-size: 18px;
+}
+
+.openchat__list__column__description {
+  margin: 10px 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.openchat__list__column__members {
+  display: flex;
+  align-items: center;
+}
+
+.openchat__list__column__members__member {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 5px;
+}
+
+.openchat__list__column__members__divider {
+  width: 1px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px 5px;
+}
+
+.openchat__list__column__members__active {
+  color: #ff73c9;
+}

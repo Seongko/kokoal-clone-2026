@@ -1,0 +1,30 @@
+#status-icon {
+  margin: 0px 10px;
+  color: red;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile__chat {
+  margin-left: auto;
+}
+
+.more-apps {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.more-apps__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.more-apps__column i {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
